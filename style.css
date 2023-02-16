@@ -224,16 +224,27 @@ footer {
     }
 
     .fact {
-        margin: 10px;
+        margin: 10px 80px;
+        padding: 5px 0px;
     }
 
     .fact-image {
         margin: 40px;
     }
 
+    .fact-info {
+        text-align: center;
+    }
+
     .experience-button {
         left: 20px;
-        top: 80px;
+        top: 4320px;
+        width: 142px;
+        height: 50px;
+    }
+
+    .btn-large-char {
+        font-size: 25px;
     }
 
     .sponsors-icon {
