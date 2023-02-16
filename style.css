@@ -47,4 +47,48 @@ header {
     height: 64px;
     margin-top: 30px;
     margin-bottom: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+/*----------------------- 
+Banner Section End
+------------------------*/
+
+/* Quick-list */
+.quick-list {
+    display: flex;
+}
+
+.quick-list-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.quick-list-subtitle {
+    color: rgba(114, 114, 114, 1);
+}
+
+
+
+.quick-list-texts {
+    display: flex;
+    align-items: center;
+    margin-left: 73px;
+}
+
+.quick-list-title {
+    font-size: 45px;
+}
+
+.quick-list-title-styel-for-feature {
+    color: rgba(255, 144, 14, 1);
+}
+
+.quick-list-title-styel-for-Quick-list {
+    color: rgba(114, 114, 114, 1);
 }
